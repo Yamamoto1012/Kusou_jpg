@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+<%= image_tag @upload.image_url(:thumb) if @upload.image.present? %>
+<%= render @upload %>
+
+<div>
+  <%= link_to "Edit this upload", edit_upload_path(@upload) %> |
+  <%= link_to "Back to uploads", uploads_path %>
+
+  <%= button_to "Destroy this upload", @upload, method: :delete %>
+</div>
+

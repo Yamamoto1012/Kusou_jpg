@@ -1,0 +1,11 @@
+<div class="main">
+    <div class="second-view">
+            <%= form_tag("/posts/create") do %>
+                <%= form_for('post_image')  do |f| %>
+                    <%= f.label :post_image %>
+                     <%= f.file_field :post_image %>
+                     <input type="submit" value="投稿">
+                <% end %>
+             <% end %>
+        </div>
+    </div>
