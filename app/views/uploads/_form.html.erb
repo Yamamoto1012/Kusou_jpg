@@ -11,22 +11,32 @@
     </div>
   <% end %>
 
+<div class="second-view">
+<div class="second-view-text">
   <div>
-    <%= form.label :image, style: "display: block" %>
+   <h2> <%= form.label :イラスト投稿, style: "display: block" %></h2>
     <%= form.file_field :image %>
   </div>
-
-  <div>
-    <%= form.label :title, style: "display: block" %>
+  </div>
+</div>
+<div class="title2">
+  <div class= "title2-text">
+    <%= form.label :タイトル, style: "display: block" %>
     <%= form.text_field :title %>
   </div>
+ </div>
 
-  <div>
-    <%= form.label :body, style: "display: block" %>
-    <%= form.text_area :body %>
+<div class="body2">
+  <div class="body2-text">
+    <%= form.label :本文, style: "display: block" %>
+    <%= form.text_area :body, size: "70x10" %>
   </div>
-
-  <div>
-    <%= form.submit %>
-  </div>
+</div>
+  <div class="post2">
+  <div class= link-button">
+    <h3>
+    <%= form.submit :投稿　%>
+    </h3>
+    </div>
+ </div>
 <% end %>

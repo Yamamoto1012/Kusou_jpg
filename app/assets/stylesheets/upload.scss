@@ -1,0 +1,94 @@
+.second-view {
+  height: calc(50vh - 110px);
+  background-image: url(/pete-alexopoulos-DuhfNThAz2A-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-view-text{
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.second-view-text h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 56px;
+  line-height: 72px;
+}
+
+.title2 {
+  height: calc(25vh - 110px);
+  background-color: #919191;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title2-text {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.body2 {
+  height: calc(30vh);
+  background-color:#919191;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body2-text {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.post2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.show-view {
+  background-color: #ffffff;
+}
+
+
+.third-view img {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+}
+
+.third-view img:hover {
+  opacity: 0.75;
+}
+
+.third-view {
+  background-color: #f8f8f8;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.third-view-text {
+  color: #f9f9f9;
+  font-weight: bold;
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #ffffff;
+  font-size: 20px;
+  border-left: solid 5px #7db4e6;
+}
+
+.content-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}

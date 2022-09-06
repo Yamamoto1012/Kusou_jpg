@@ -1,14 +1,16 @@
-<p style="color: green"><%= notice %></p>
 
-<h1>Uploads</h1>
-
+<div class="third-view">
+<div class="third-view-text">
+<h1>投稿一覧</h1>
+</div>
 <div id="uploads">
+<div class="content-img">
   <% @uploads.each do |upload| %>
-    <%= render upload %>
-    <p>
-      <%= link_to "Show this upload", upload %>
+     <p>
+      <%= link_to image_tag("#{upload.image}"), upload %>
     </p>
   <% end %>
 </div>
-
-<%= link_to "New upload", new_upload_path %>
+</div>
+</div>
+<%= link_to "投稿する", new_upload_path %>
